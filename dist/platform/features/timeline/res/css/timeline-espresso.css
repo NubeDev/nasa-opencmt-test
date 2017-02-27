@@ -1,0 +1,298 @@
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/************************** FEATURES */
+/************************** VERY INFLUENTIAL GLOBAL DIMENSIONS */
+/************************** RATIOS */
+/************************** LAYOUT */
+/*************** Panes */
+/*************** Overlay */
+/*************** Progress Overlay */
+/*************** Items */
+/*************** Tree */
+/*************** Tabular */
+/*************** Imagery */
+/*************** Ticks */
+/*************** Plots */
+/* min plot height is based on user testing to find minimum useful height */
+/*************** Bubbles */
+/*************** Forms */
+/*************** Wait Spinner Defaults */
+/************************** CONTROLS */
+/************************** PATHS */
+/************************** TIMINGS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*********************************************** CONTROLS, FORM ELEMENTS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* line 26, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 149, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 150, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.l-timeline-holder .l-timeline-pane.t-pane-h.l-timeline-resource-legend .l-legend-items {
+  color: #999; }
+
+/* line 35, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 153, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 155, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline-gantt .bar {
+  color: #fff;
+  background-image: -webkit-linear-gradient(#7777bb, #5555aa);
+  background-image: linear-gradient(#7777bb, #5555aa);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px; }
+
+/* line 39, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 159, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 163, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline-gantt .bar .s-toggle {
+  color: #0099cc; }
+
+/* line 47, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 163, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 168, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline-tabular .l-header .l-cols .l-col {
+  border-left: 1px solid #666666; }
+
+/* line 55, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 167, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 173, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline-tabular .l-pane-l .l-cols .t-object-label .t-item-icon {
+  color: #7777bb; }
+
+/* line 65, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 171, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 178, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.edit-mode .s-timeline-gantt .bar:hover,
+.s-status-editing .s-timeline-gantt .bar:hover {
+  background-image: -webkit-linear-gradient(#9999cc, #7777bb);
+  background-image: linear-gradient(#9999cc, #7777bb); }
+
+/* line 72, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 177, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 185, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline {
+  font-size: 0.75rem; }
+
+/* line 74, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 180, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 190, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-header {
+  background-color: #404040; }
+
+/* line 77, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 183, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 195, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane {
+  border-bottom: 1px solid #4d4d4d;
+  line-height: 20px; }
+
+/* line 80, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 187, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 201, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane.exceeded {
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent 100%);
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent 100%);
+  background-repeat: repeat;
+  background-size: 22px 22px; }
+
+/* line 84, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 193, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 209, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane.selected {
+  background-color: #222;
+  color: #ccc; }
+
+/* line 88, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 197, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 215, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane.selected .s-timeline-gantt .bar {
+  background-image: -webkit-linear-gradient(#e6e6e6, #ccc);
+  background-image: linear-gradient(#e6e6e6, #ccc);
+  color: #333; }
+
+/* line 94, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 202, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 222, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane.drop-into {
+  background-color: rgba(85, 85, 170, 0.7); }
+
+/* line 96, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 205, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 227, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane.drop-into .s-timeline-gantt {
+  opacity: 0.7; }
+
+/* line 100, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 208, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 232, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-swimlane.drop-after {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: #5555aa; }
+
+/* line 106, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 212, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 238, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-ticks {
+  background-image: -webkit-linear-gradient(-360deg, #595959 1px, transparent 1px, transparent 100%);
+  background-image: linear-gradient(90deg, #595959 1px, transparent 1px, transparent 100%);
+  background-repeat: repeat-x; }
+
+/* line 109, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 217, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 245, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-hover-btns-holder {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: -webkit-linear-gradient(-90deg, #404040, #404040 70%, rgba(64, 64, 64, 0) 100%);
+  background-image: linear-gradient(-90deg, #404040, #404040 70%, rgba(64, 64, 64, 0) 100%); }
+
+/* line 115, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 225, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 255, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-hover-btns-holder .s-button {
+  height: 16px;
+  line-height: 16px; }
+
+/* line 118, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 229, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 261, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .s-hover-btns-holder .s-button .icon {
+  font-size: 0.7rem !important; }
+
+/* line 125, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 232, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 266, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .l-timeline-resource-graph .l-graph {
+  background: rgba(0, 0, 0, 0.2); }
+
+/* line 128, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/sass/_timeline-thematic.scss */
+/* line 235, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+/* line 271, /Applications/MAMP/htdocs/openmct-master/platform/features/timeline/res/css/timeline-espresso.css */
+.s-timeline .l-timeline-resource-graph .l-title {
+  color: #999; }
+
+/*# sourceMappingURL=timeline-espresso.css.map */
+/*# sourceMappingURL=timeline-espresso.css.map */
+
+/*# sourceMappingURL=timeline-espresso.css.map */

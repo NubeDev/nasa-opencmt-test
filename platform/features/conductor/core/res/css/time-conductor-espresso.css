@@ -1,0 +1,2167 @@
+@charset "UTF-8";
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2015, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/************************** FEATURES */
+/************************** VERY INFLUENTIAL GLOBAL DIMENSIONS */
+/************************** RATIOS */
+/************************** LAYOUT */
+/*************** Panes */
+/*************** Overlay */
+/*************** Progress Overlay */
+/*************** Items */
+/*************** Tree */
+/*************** Tabular */
+/*************** Imagery */
+/*************** Ticks */
+/*************** Plots */
+/* min plot height is based on user testing to find minimum useful height */
+/*************** Bubbles */
+/*************** Forms */
+/*************** Wait Spinner Defaults */
+/************************** CONTROLS */
+/************************** PATHS */
+/************************** TIMINGS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*********************************************** CONTROLS, FORM ELEMENTS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* REQUIRES /platform/commonUI/general/res/sass/_constants.scss */
+/************************** MOBILE REPRESENTATION ITEMS DIMENSIONS */
+/************************** MOBILE TREE MENU DIMENSIONS */
+/************************** DEVICE WIDTHS */
+/************************** MEDIA QUERIES: WINDOW CHECKS FOR SPECIFIC ORIENTATIONS FOR EACH DEVICE */
+/************************** MEDIA QUERIES: WINDOWS FOR SPECIFIC ORIENTATIONS FOR EACH DEVICE */
+/************************** DEVICE PARAMETERS FOR MENUS/REPRESENTATIONS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* REQUIRES /platform/commonUI/general/res/sass/mobile/_constants.scss */
+/************************** CHAR UNICODES */
+/************************** 16 PX CLASSES */
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 139, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 140, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-alert-rect:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 144, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 146, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-alert-triangle:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 149, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 152, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-down:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 154, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 158, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-left:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 159, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 164, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-right:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 164, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 170, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-double-up:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 169, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 176, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-tall-up:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 174, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 182, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-tall-down:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 179, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 188, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-double-down:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 184, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 194, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrow-up:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 189, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 200, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-asterisk:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 194, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 206, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-bell:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 199, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 212, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-box:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 204, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 218, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-box-with-arrow:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 209, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 224, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-check:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 214, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 230, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-connectivity:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 219, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 236, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-database-in-brackets:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 224, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 242, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-eye-open:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 229, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 248, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-gear:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 234, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 254, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-hourglass:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 239, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 260, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-info:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 244, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 266, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-link:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 249, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 272, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-lock:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 254, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 278, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-minus:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 259, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 284, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-people:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 264, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 290, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-person:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 269, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 296, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-plus:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 274, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 302, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-trash:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 279, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 308, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-x:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 284, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 314, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-brackets:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 289, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 320, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrows-out:before {
+  content: "󡀀";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 294, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 326, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrows-right-left:before {
+  content: "󡀁";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 299, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 332, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-arrows-up-down:before {
+  content: "󡀂";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 304, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 338, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-bullet:before {
+  content: "󡀄";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 309, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 344, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-calendar:before {
+  content: "󡀅";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 314, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 350, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-chain-links:before {
+  content: "󡀆";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 319, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 356, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-collapse-pane-left:before {
+  content: "󡀇";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 324, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 362, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-collapse-pane-right:before {
+  content: "󡀈";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 329, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 368, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-download:before {
+  content: "󡀉";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 334, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 374, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-duplicate:before {
+  content: "󡀐";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 339, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 380, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-folder-new:before {
+  content: "󡀑";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 344, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 386, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-fullscreen-collapse:before {
+  content: "󡀒";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 349, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 392, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-fullscreen-expand:before {
+  content: "󡀓";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 354, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 398, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-layers:before {
+  content: "󡀔";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 359, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 404, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-line-horz:before {
+  content: "󡀕";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 364, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 410, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-magnify:before {
+  content: "󡀖";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 369, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 416, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-magnify-in:before {
+  content: "󡀗";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 374, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 422, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-magnify-out:before {
+  content: "󡀘";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 379, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 428, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-menu-hamburger:before {
+  content: "󡀙";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 384, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 434, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-move:before {
+  content: "󡀠";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 389, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 440, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-new-window:before {
+  content: "󡀡";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 394, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 446, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-paint-bucket:before {
+  content: "󡀢";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 399, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 452, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-pause:before {
+  content: "󡀣";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 404, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 458, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-pencil:before {
+  content: "󡀤";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 409, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 464, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-play:before {
+  content: "󡀥";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 414, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 470, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-plot-resource:before {
+  content: "󡀦";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 419, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 476, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-pointer-left:before {
+  content: "󡀧";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 424, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 482, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-pointer-right:before {
+  content: "󡀨";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 429, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 488, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-refresh:before {
+  content: "󡀩";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 434, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 494, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-save:before {
+  content: "󡀰";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 439, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 500, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-sine:before {
+  content: "󡀱";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 444, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 506, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-T:before {
+  content: "󡀲";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 449, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 512, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-thumbs-strip:before {
+  content: "󡀳";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 454, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 518, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-two-parts-both:before {
+  content: "󡀴";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 459, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 524, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-two-parts-one-only:before {
+  content: "󡀵";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 464, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 530, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-x-in-circle:before, mct-include.l-toi-holder .l-toi .t-button-unpin:before {
+  content: "󡀸";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 469, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 536, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-brightness:before {
+  content: "󡀹";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 474, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 542, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-contrast:before {
+  content: "󡁀";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 479, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 548, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-reset:before {
+  content: "󡀷";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 484, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 554, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-resync:before {
+  content: "󡀶";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 489, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 560, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-activity:before {
+  content: "󡄀";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 494, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 566, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-activity-mode:before {
+  content: "󡄁";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 499, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 572, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-autoflow-tabular:before {
+  content: "󡄂";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 504, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 578, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-clock:before, mct-include.l-toi-holder .l-toi .t-button-resync:before {
+  content: "󡄃";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 509, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 584, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-database:before {
+  content: "󡄄";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 514, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 590, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-database-query:before {
+  content: "󡄅";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 519, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 596, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-dataset:before {
+  content: "󡄆";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 524, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 602, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-datatable:before {
+  content: "󡄇";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 529, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 608, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-dictionary:before {
+  content: "󡄈";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 534, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 614, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-folder:before {
+  content: "󡄉";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 539, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 620, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-image:before {
+  content: "󡄐";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 544, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 626, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-layout:before {
+  content: "󡄑";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 549, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 632, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-object:before {
+  content: "󡄒";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 554, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 638, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-object-unknown:before {
+  content: "󡄓";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 559, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 644, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-packet:before {
+  content: "󡄔";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 564, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 650, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-page:before {
+  content: "󡄕";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 569, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 656, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-plot-overlay:before {
+  content: "󡄖";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 574, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 662, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-plot-stacked:before {
+  content: "󡄗";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 579, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 668, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-session:before {
+  content: "󡄘";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 584, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 674, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-tabular:before {
+  content: "󡄙";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 589, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 680, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-tabular-lad:before {
+  content: "󡄠";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 594, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 686, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-tabular-lad-set:before {
+  content: "󡄡";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 599, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 692, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-tabular-realtime:before {
+  content: "󡄢";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 604, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 698, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-tabular-scrolling:before {
+  content: "󡄣";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 609, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 704, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-telemetry:before {
+  content: "󡄤";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 614, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 710, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-telemetry-panel:before {
+  content: "󡄥";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 619, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 716, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-timeline:before {
+  content: "󡄦";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 624, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 722, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-timer:before {
+  content: "󡄧";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 629, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 728, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-topic:before {
+  content: "󡄨";
+  font-family: "symbolsfont"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 634, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 734, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-box-with-dashed-lines:before {
+  content: "󡄩";
+  font-family: "symbolsfont"; }
+
+/************************** 12 PX CLASSES */
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 640, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 741, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-eye-open-12px:before {
+  content: "";
+  font-family: "symbolsfont-12px"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 645, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 747, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-collapse-pane-left-12px:before {
+  content: "󡀇";
+  font-family: "symbolsfont-12px"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 650, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 753, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-collapse-pane-right-12px:before {
+  content: "󡀈";
+  font-family: "symbolsfont-12px"; }
+
+/* line 2, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_glyphs.scss */
+/* line 655, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 759, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.icon-folder-12px:before {
+  content: "󡄉";
+  font-family: "symbolsfont-12px"; }
+
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* line 22, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 681, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 786, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #0099cc;
+  border-bottom: 5px solid transparent; }
+
+/* line 26, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 688, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 795, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.triangle.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-top: 5px solid #0099cc;
+  border-right: 5px solid transparent; }
+
+/* line 31, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 696, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 804, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.ui-symbol, .t-item-icon, .time-conductor-icon:before, .l-time-conductor .mode-selector .s-menu-button:before,
+.l-time-conductor .time-delta:before {
+  font-family: 'symbolsfont';
+  -webkit-font-smoothing: antialiased; }
+
+/* line 36, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 702, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 811, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.ui-symbol.icon, .t-item-icon, .icon.time-conductor-icon:before, .time-conductor-icon.t-item-icon:before, .l-time-conductor .mode-selector .icon.s-menu-button:before, .l-time-conductor .mode-selector .s-menu-button.t-item-icon:before,
+.l-time-conductor .icon.time-delta:before,
+.l-time-conductor .time-delta.t-item-icon:before {
+  color: #0099cc;
+  font-size: inherit; }
+
+/* line 39, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 708, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 819, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.ui-symbol.icon.alert, .alert.t-item-icon, .icon.alert.time-conductor-icon:before, .alert.time-conductor-icon.t-item-icon:before, .l-time-conductor .mode-selector .icon.alert.s-menu-button:before, .l-time-conductor .mode-selector .alert.s-menu-button.t-item-icon:before,
+.l-time-conductor .icon.alert.time-delta:before,
+.l-time-conductor .alert.time-delta.t-item-icon:before {
+  color: #ff3c00; }
+
+/* line 41, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 713, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 826, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.ui-symbol.icon.alert:hover, .alert.t-item-icon:hover, .icon.alert.time-conductor-icon:hover:before, .alert.time-conductor-icon.t-item-icon:hover:before, .l-time-conductor .mode-selector .icon.alert.s-menu-button:hover:before, .l-time-conductor .mode-selector .alert.s-menu-button.t-item-icon:hover:before,
+.l-time-conductor .icon.alert.time-delta:hover:before,
+.l-time-conductor .alert.time-delta.t-item-icon:hover:before {
+  color: #ff8a66; }
+
+/* line 47, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 719, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 833, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.bar .ui-symbol, .bar .t-item-icon, .bar .time-conductor-icon:before, .bar .l-time-conductor .mode-selector .s-menu-button:before, .l-time-conductor .mode-selector .bar .s-menu-button:before, .bar
+.l-time-conductor .time-delta:before,
+.l-time-conductor .bar .time-delta:before {
+  display: inline-block; }
+
+/* line 51, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 725, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 840, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.invoke-menu {
+  text-shadow: none;
+  display: inline-block; }
+
+/* line 56, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 730, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 846, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.s-menu-button .invoke-menu,
+.icon.major .invoke-menu, .major.t-item-icon .invoke-menu {
+  margin-left: 3px; }
+
+/* line 61, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 735, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 852, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.menu .type-icon,
+.tree-item .type-icon,
+.super-menu.menu .menu-item-a:before {
+  position: absolute; }
+
+/* line 67, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 741, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 859, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.t-item-icon {
+  line-height: inherit;
+  position: relative; }
+
+/* line 73, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 745, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 865, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.t-item-icon.l-icon-link {
+  /*        .t-item-icon-glyph {
+            &:after {
+                color: $colorIconLink;
+                content: '\e921'; //$glyph-icon-link;
+                height: auto; width: auto;
+                position: absolute;
+                left: 0; top: 0; right: 0; bottom: 20%;
+                @include transform-origin(bottom left);
+                @include transform(scale(0.3));
+                z-index: 2;
+            }
+        }*/ }
+
+/* line 74, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_icons.scss */
+/* line 759, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 881, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.t-item-icon.l-icon-link:after {
+  color: #49dedb;
+  content: "";
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 20%;
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  -o-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3);
+  z-index: 2; }
+
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2015, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* line 29, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 803, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 926, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor-holder {
+  border-top: 1px solid rgba(153, 153, 153, 0.1);
+  min-width: 500px;
+  padding-top: 5px; }
+
+/* line 35, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 809, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 933, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon {
+  height: 18px !important;
+  width: 18px;
+  position: relative; }
+
+/* line 42, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 814, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 940, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon:before {
+  color: #cccccc;
+  content: "";
+  font-size: 18px;
+  line-height: normal;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
+/* line 55, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 824, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 952, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon div[class*="hand"] {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: absolute;
+  height: 2px;
+  width: 2px;
+  left: 50%;
+  top: 50%;
+  z-index: 2; }
+
+/* line 67, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 843, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 973, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon div[class*="hand"]:before {
+  background: #cccccc;
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: -1px; }
+
+/* line 75, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 851, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 983, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon div[class*="hand"].hand-little {
+  z-index: 2;
+  -webkit-animation-duration: 12s;
+  -moz-animation-duration: 12s;
+  animation-duration: 12s; }
+
+/* line 78, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 857, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 991, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon div[class*="hand"].hand-little:before {
+  height: 6px; }
+
+/* line 82, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 860, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 996, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon div[class*="hand"].hand-big {
+  z-index: 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+
+/* line 85, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 866, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1004, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.time-conductor-icon div[class*="hand"].hand-big:before {
+  height: 7.2px; }
+
+/* line 92, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 870, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1009, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor {
+  position: relative; }
+
+/* line 101, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 873, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1014, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor > .l-row-elem {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative; }
+
+/* line 116, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 878, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1021, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .time-delta:before {
+  color: #4e70dc; }
+
+/* line 121, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 881, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1026, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder,
+.l-time-conductor .l-time-conductor-inputs-and-ticks,
+.l-time-conductor .l-time-conductor-zoom-w {
+  font-size: 0.8rem; }
+
+/* line 127, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 886, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1033, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder {
+  height: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none; }
+
+/* line 139, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 896, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1045, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w {
+  height: 100%;
+  position: absolute; }
+
+/* line 143, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 900, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1051, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w .title {
+  display: inline-block;
+  margin-right: 3px; }
+
+/* line 147, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 904, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1057, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w.start-w {
+  background-image: -webkit-linear-gradient(-540deg, transparent, #333 50px);
+  background-image: linear-gradient(270deg, transparent, #333 50px);
+  padding-right: 50px; }
+
+/* line 150, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 909, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1064, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w.start-w .title:before {
+  content: 'Start'; }
+
+/* line 154, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 912, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1069, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w.end-w {
+  background-image: -webkit-linear-gradient(-360deg, transparent, #333 50px);
+  background-image: linear-gradient(90deg, transparent, #333 50px);
+  padding-left: 50px;
+  right: 0; }
+
+/* line 158, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 918, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1077, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w.end-w .title:before {
+  content: 'End'; }
+
+/* line 162, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 921, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1082, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w .l-time-conductor-inputs {
+  pointer-events: auto; }
+
+/* line 165, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 924, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1087, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w input[type="text"] {
+  -webkit-transition-property: padding;
+  -moz-transition-property: padding;
+  transition-property: padding;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  transition-delay: 0; }
+
+/* line 168, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 938, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1103, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w .time-range-input input[type="text"] {
+  width: 165px; }
+
+/* line 171, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 941, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1108, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w .hrs-min-input input[type="text"] {
+  width: 60px; }
+
+/* line 174, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 944, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1113, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-holder .l-time-range-w .icon-calendar {
+  margin-top: 4px; }
+
+/* line 180, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 947, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1118, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks {
+  height: 25px; }
+
+/* line 183, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 950, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1123, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks mct-conductor-axis {
+  display: block;
+  position: relative;
+  width: 100%; }
+
+/* line 188, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 955, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1130, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks .l-axis-holder {
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  right: 10px; }
+
+/* line 193, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 961, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1138, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks .l-axis-holder svg {
+  text-rendering: geometricPrecision;
+  width: 100%;
+  height: 100%; }
+
+/* line 197, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 966, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1145, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks .l-axis-holder svg > g {
+  font-size: 0.9em; }
+
+/* line 200, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 969, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1150, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks .l-axis-holder svg path {
+  display: none; }
+
+/* line 204, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 972, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1155, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks .l-axis-holder svg line {
+  stroke: gray; }
+
+/* line 208, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 975, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1160, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-inputs-and-ticks .l-axis-holder svg text {
+  fill: gray; }
+
+/* line 215, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 978, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1165, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder {
+  height: 16px;
+  z-index: 2; }
+
+/* line 219, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 982, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1171, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder .l-page-button,
+.l-time-conductor .l-data-visualization-holder .l-data-visualization {
+  position: absolute;
+  top: 0;
+  bottom: 0; }
+
+/* line 226, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 988, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1179, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder .l-page-button {
+  display: none; }
+
+/* line 241, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 991, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1184, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder .l-data-visualization {
+  background: #404040;
+  left: 10px;
+  right: 10px; }
+
+/* line 246, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 996, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1191, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder .l-data-visualization:hover .l-toi-holder.hover {
+  opacity: 1; }
+
+/* line 249, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 999, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1196, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder .l-data-visualization:hover .l-toi-holder.pinned.active {
+  opacity: 0.4; }
+
+/* line 251, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1002, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1201, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-data-visualization-holder .l-data-visualization:hover .l-toi-holder.pinned.active .l-toi-val {
+  pointer-events: none;
+  opacity: 0; }
+
+/* line 260, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1006, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1207, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-controls {
+  align-items: center;
+  margin-top: 5px; }
+
+/* line 263, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1010, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1213, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-controls .l-time-conductor-zoom-w {
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  box-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  -ms-flex-pack: end; }
+
+/* line 265, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1021, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1226, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-controls .l-time-conductor-zoom-w .time-conductor-zoom {
+  height: 20px;
+  min-width: 100px;
+  width: 20%; }
+
+/* line 270, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1026, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1233, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-time-conductor-controls .l-time-conductor-zoom-w .time-conductor-zoom-current-range {
+  color: rgba(255, 255, 255, 0.2); }
+
+/* line 280, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1029, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1238, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .time-conductor-icon:before, .l-time-conductor.lad-mode .time-conductor-icon:before {
+  color: #4e70dc; }
+
+/* line 283, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1032, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1243, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .time-conductor-icon div[class*="hand"], .l-time-conductor.lad-mode .time-conductor-icon div[class*="hand"] {
+  -webkit-animation-name: clock-hands;
+  -moz-animation-name: clock-hands;
+  animation-name: clock-hands; }
+
+/* line 285, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1037, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1250, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .time-conductor-icon div[class*="hand"]:before, .l-time-conductor.lad-mode .time-conductor-icon div[class*="hand"]:before {
+  background: #4e70dc; }
+
+/* line 293, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1040, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1255, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error), .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error) {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+/* line 299, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1047, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1264, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):hover, .l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):focus, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):hover, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 1px 3px;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  color: pullForward(#999, 20%);
+  outline: none;
+  padding: 3px 5px; }
+
+/* line 327, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_mixins.scss */
+/* line 1062, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1281, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):hover.error, .l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):focus.error, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):hover.error, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w input[type="text"]:not(.error):focus.error {
+  background-color: #990000;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 305, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1066, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1287, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w .icon-calendar, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w .icon-calendar {
+  display: none; }
+
+/* line 308, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1069, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1292, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w.start-date, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w.start-date {
+  display: none; }
+
+/* line 311, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1072, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1297, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w.end-date, .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w.end-date {
+  pointer-events: none; }
+
+/* line 313, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1075, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1302, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-input-w.end-date input[type="text"], .l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-input-w.end-date input[type="text"] {
+  color: #6381e0;
+  margin-right: 5px;
+  tab-index: -1; }
+
+/* line 322, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1080, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1309, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-data-visualization, .l-time-conductor.lad-mode .l-data-visualization {
+  background: #2950ce !important; }
+
+/* line 326, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1083, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1314, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .mode-selector .s-menu-button, .l-time-conductor.lad-mode .mode-selector .s-menu-button {
+  background-color: #4e70dc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #fff;
+  background-image: -webkit-linear-gradient(#6381e0, #4e70dc);
+  background-image: linear-gradient(#6381e0, #4e70dc);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+  color: #fff !important; }
+
+/* line 296, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_mixins.scss */
+/* line 1099, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1332, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .mode-selector .s-menu-button .icon, .l-time-conductor.realtime-mode .mode-selector .s-menu-button .t-item-icon, .l-time-conductor.realtime-mode .mode-selector .s-menu-button:before, .l-time-conductor.lad-mode .mode-selector .s-menu-button .icon, .l-time-conductor.lad-mode .mode-selector .s-menu-button .t-item-icon, .l-time-conductor.lad-mode .mode-selector .s-menu-button:before {
+  color: #999; }
+
+/* line 301, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_mixins.scss */
+/* line 1102, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1337, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .mode-selector .s-menu-button:not(.disabled):hover, .l-time-conductor.lad-mode .mode-selector .s-menu-button:not(.disabled):hover {
+  background: #a3b5ed;
+  color: pullForward(#999, 10%); }
+
+/* line 304, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_mixins.scss */
+/* line 1106, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1343, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .mode-selector .s-menu-button:not(.disabled):hover > .icon, .l-time-conductor.realtime-mode .mode-selector .s-menu-button:not(.disabled):hover > .t-item-icon, .l-time-conductor.realtime-mode .mode-selector .s-menu-button:not(.disabled):hover:before, .l-time-conductor.lad-mode .mode-selector .s-menu-button:not(.disabled):hover > .icon, .l-time-conductor.lad-mode .mode-selector .s-menu-button:not(.disabled):hover > .t-item-icon, .l-time-conductor.lad-mode .mode-selector .s-menu-button:not(.disabled):hover:before {
+  color: pullForward(#999, 10%); }
+
+/* line 329, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1109, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1348, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .mode-selector .s-menu-button:before, .l-time-conductor.lad-mode .mode-selector .s-menu-button:before {
+  color: #fff !important; }
+
+/* line 341, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1112, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1353, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.fixed-mode .time-conductor-icon div[class*="hand"].hand-little {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg); }
+
+/* line 345, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1119, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1362, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.fixed-mode .mode-selector .s-menu-button:before {
+  content: "󡀅"; }
+
+/* line 348, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1122, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1367, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.fixed-mode .l-axis-holder {
+  cursor: grab;
+  cursor: -webkit-grab; }
+
+/* line 369, /Applications/MAMP/htdocs/openmct-master/platform/commonUI/general/res/sass/_mixins.scss */
+/* line 1126, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1373, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.fixed-mode .l-axis-holder:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing; }
+
+/* line 356, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1130, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1379, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .time-conductor-icon div[class*="hand"] {
+  -webkit-animation-name: clock-hands;
+  -moz-animation-name: clock-hands;
+  animation-name: clock-hands; }
+
+/* line 359, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1135, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1386, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .time-delta:before {
+  content: "󡄃"; }
+
+/* line 362, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1138, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1391, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .l-time-conductor-inputs-holder .l-time-range-w.end-w .title:before {
+  content: 'Now'; }
+
+/* line 365, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1141, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1396, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.realtime-mode .mode-selector .s-menu-button:before {
+  content: "󡄃"; }
+
+/* line 373, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1144, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1401, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.lad-mode .time-conductor-icon div[class*="hand"] {
+  -webkit-animation-name: clock-hands-sticky;
+  -moz-animation-name: clock-hands-sticky;
+  animation-name: clock-hands-sticky; }
+
+/* line 375, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1149, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1408, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.lad-mode .time-conductor-icon div[class*="hand"].hand-big {
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  animation-duration: 5s; }
+
+/* line 378, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1154, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1415, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.lad-mode .time-conductor-icon div[class*="hand"].hand-little {
+  -webkit-animation-duration: 60s;
+  -moz-animation-duration: 60s;
+  animation-duration: 60s; }
+
+/* line 382, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1159, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1422, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.lad-mode .time-delta:before {
+  content: "󡄄"; }
+
+/* line 385, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1162, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1427, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.lad-mode .l-time-conductor-inputs-holder .l-time-range-w.end-w .title:before {
+  content: 'LAD'; }
+
+/* line 388, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+/* line 1165, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1432, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor.lad-mode .mode-selector .s-menu-button:before {
+  content: "󡄄"; }
+
+/******************************************************************** MOBILE */
+@media only screen and (orientation: portrait) and (max-device-width: 767px), only screen and (orientation: landscape) and (max-device-width: 767px), only screen and (orientation: portrait) and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 397, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1171, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1439, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor-holder {
+    min-width: 0 !important; }
+  /* line 400, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1174, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1443, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .super-menu.mini {
+    width: 200px;
+    height: 100px; }
+  /* line 403, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1178, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1448, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .super-menu.mini .pane.menu-item-description {
+    display: none; } }
+
+@media only screen and (orientation: portrait) and (max-device-width: 767px), only screen and (orientation: landscape) and (max-device-width: 767px) {
+  /* line 410, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1183, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1454, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor {
+    min-width: 0; }
+  /* line 414, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1186, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1458, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-time-conductor-inputs-and-ticks .l-time-conductor-inputs-holder .l-time-range-w {
+    background-image: none !important; }
+  /* line 418, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1189, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1462, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-time-conductor-inputs-and-ticks mct-conductor-axis {
+    display: none; } }
+
+@media only screen and (orientation: portrait) and (max-device-width: 767px) {
+  /* line 427, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1194, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1468, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-data-visualization,
+  .l-time-conductor .l-time-conductor-zoom-w,
+  .l-time-conductor .time-delta {
+    display: none; }
+  /* line 433, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1199, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1474, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-time-conductor-inputs-and-ticks {
+    height: auto !important; }
+  /* line 435, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1202, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1478, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-time-conductor-inputs-and-ticks .l-time-conductor-inputs-holder {
+    position: relative;
+    height: auto !important; }
+  /* line 439, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1206, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1483, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-time-conductor-inputs-and-ticks .l-time-conductor-inputs-holder .l-time-range-w {
+    background-image: none !important;
+    display: block;
+    height: auto !important;
+    padding: 0 !important;
+    position: relative;
+    text-align: left; }
+  /* line 446, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1214, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1492, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor .l-time-conductor-inputs-and-ticks .l-time-conductor-inputs-holder .l-time-range-w:not(:first-child) {
+    margin-top: 5px; }
+  /* line 457, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1217, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1496, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor.fixed-mode .l-time-conductor-inputs-and-ticks .l-time-range-w .title {
+    width: 30px; }
+  /* line 469, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1220, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1500, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor.realtime-mode .l-time-conductor-inputs-and-ticks .l-time-range-w.start-w, .l-time-conductor.lad-mode .l-time-conductor-inputs-and-ticks .l-time-range-w.start-w {
+    display: none; }
+  /* line 472, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1223, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1504, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor.realtime-mode .l-time-conductor-inputs-and-ticks .l-time-range-w.end-w, .l-time-conductor.lad-mode .l-time-conductor-inputs-and-ticks .l-time-range-w.end-w {
+    margin-top: 0; }
+  /* line 474, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-conductor-base.scss */
+  /* line 1226, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  /* line 1508, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+  .l-time-conductor.realtime-mode .l-time-conductor-inputs-and-ticks .l-time-range-w.end-w .end-date input[type="text"], .l-time-conductor.lad-mode .l-time-conductor-inputs-and-ticks .l-time-range-w.end-w .end-date input[type="text"] {
+    margin: 0;
+    text-align: left; } }
+
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2016, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* line 23, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1252, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1535, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder,
+.l-toi-holder:after,
+.l-toi-holder:before {
+  display: block;
+  position: absolute; }
+
+/* line 30, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1259, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1543, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #6b93c6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 12px; }
+
+/* line 38, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1271, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1557, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder:not(.pinned) {
+  display: none; }
+
+/* line 42, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1274, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1562, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.pinned {
+  display: block; }
+
+/* line 46, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1277, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1567, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder:before, mct-include.l-toi-holder:after {
+  border-left: 1px dashed #6b93c6;
+  box-sizing: border-box;
+  content: '';
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  z-index: 2; }
+
+/* line 61, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1289, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1581, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi {
+  background-image: -webkit-linear-gradient(-360deg, transparent, #333 10%, #333 90%, transparent 100%);
+  background-image: linear-gradient(90deg, transparent, #333 10%, #333 90%, transparent 100%);
+  position: absolute;
+  align-items: center;
+  box-sizing: content-box;
+  height: 12px;
+  left: -8px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  padding: 4px;
+  z-index: 1; }
+
+/* line 73, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1306, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1600, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons {
+  -webkit-transition-property: width, padding;
+  -moz-transition-property: width, padding;
+  transition-property: width, padding;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  transition-delay: 0;
+  border-radius: 2px;
+  box-sizing: content-box;
+  font-size: 12px;
+  height: 100%;
+  line-height: 12px;
+  padding: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  justify-content: space-between;
+  width: 12px; }
+
+/* line 86, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1330, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1626, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover {
+  background-color: #6b93c6;
+  cursor: pointer;
+  width: 30px; }
+
+/* line 92, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1335, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1633, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover .icon-button {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1; }
+
+/* line 95, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1339, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1639, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover .icon-button:hover {
+  color: #fff; }
+
+/* line 100, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1342, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1644, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover .t-button-resync {
+  order: 1; }
+
+/* line 102, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1345, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1649, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover .t-button-resync:before {
+  content: "󡀶"; }
+
+/* line 106, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1348, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1654, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover .t-button-unpin {
+  order: 2; }
+
+/* line 108, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1351, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1659, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover .t-button-unpin:hover {
+  color: #cf2a12; }
+
+/* line 113, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1354, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1664, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .l-toi-buttons:hover + .l-toi-val {
+  opacity: 0.5; }
+
+/* line 120, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1357, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1669, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .icon-button {
+  color: #6b93c6; }
+
+/* line 126, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1360, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1674, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .t-button-resync:hover {
+  color: #fff; }
+
+/* line 129, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1363, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1679, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi .t-button-unpin {
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 150ms;
+  -moz-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  transition-delay: 0;
+  float: right;
+  opacity: 0; }
+
+/* line 137, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1379, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1697, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder .l-toi-val {
+  display: none; }
+
+/* line 144, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1382, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1702, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val .l-toi .l-toi-buttons {
+  order: 1; }
+
+/* line 146, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1385, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1707, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val .l-toi .l-toi-buttons:hover {
+  margin-right: 3px; }
+
+/* line 150, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1388, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1712, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val .l-toi .l-toi-val {
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 150ms;
+  -moz-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  transition-delay: 0;
+  background-color: #6b93c6;
+  border-radius: 2px;
+  box-sizing: content-box;
+  color: #000;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  height: 12px;
+  line-height: 12px;
+  order: 2;
+  padding: 1px 3px;
+  white-space: nowrap; }
+
+/* line 168, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1414, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1740, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val.val-to-left .l-toi {
+  left: auto;
+  right: -8px; }
+
+/* line 172, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1418, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1746, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val.val-to-left .l-toi .l-toi-buttons {
+  order: 2; }
+
+/* line 174, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1421, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1751, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val.val-to-left .l-toi .l-toi-buttons:hover {
+  margin-left: 3px; }
+
+/* line 175, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1424, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1756, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val.val-to-left .l-toi .l-toi-buttons:hover .t-button-resync {
+  order: 2; }
+
+/* line 176, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1427, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1761, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val.val-to-left .l-toi .l-toi-buttons:hover .t-button-unpin {
+  order: 1; }
+
+/* line 181, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1430, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1766, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+mct-include.l-toi-holder.show-val.val-to-left .l-toi .l-toi-val {
+  order: 1; }
+
+/* line 195, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1434, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1771, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.tabular tbody tr.l-toi-tablerow, .tabular tbody .tr.l-toi-tablerow, .tabular .tbody tr.l-toi-tablerow, .tabular .tbody .tr.l-toi-tablerow,
+table tbody tr.l-toi-tablerow,
+table tbody .tr.l-toi-tablerow,
+table .tbody tr.l-toi-tablerow,
+table .tbody .tr.l-toi-tablerow {
+  border-top: 1px dashed #6b93c6;
+  z-index: 1; }
+
+/* line 199, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1442, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1781, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.tabular tbody tr.l-toi-tablerow td .l-toi-holder, .tabular tbody tr.l-toi-tablerow .td .l-toi-holder, .tabular tbody .tr.l-toi-tablerow td .l-toi-holder, .tabular tbody .tr.l-toi-tablerow .td .l-toi-holder, .tabular .tbody tr.l-toi-tablerow td .l-toi-holder, .tabular .tbody tr.l-toi-tablerow .td .l-toi-holder, .tabular .tbody .tr.l-toi-tablerow td .l-toi-holder, .tabular .tbody .tr.l-toi-tablerow .td .l-toi-holder,
+table tbody tr.l-toi-tablerow td .l-toi-holder,
+table tbody tr.l-toi-tablerow .td .l-toi-holder,
+table tbody .tr.l-toi-tablerow td .l-toi-holder,
+table tbody .tr.l-toi-tablerow .td .l-toi-holder,
+table .tbody tr.l-toi-tablerow td .l-toi-holder,
+table .tbody tr.l-toi-tablerow .td .l-toi-holder,
+table .tbody .tr.l-toi-tablerow td .l-toi-holder,
+table .tbody .tr.l-toi-tablerow .td .l-toi-holder {
+  left: 50% !important; }
+
+/* line 201, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1453, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1794, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.tabular tbody tr.l-toi-tablerow td .l-toi-holder:before, .tabular tbody tr.l-toi-tablerow td .l-toi-holder:after, .tabular tbody tr.l-toi-tablerow .td .l-toi-holder:before, .tabular tbody tr.l-toi-tablerow .td .l-toi-holder:after, .tabular tbody .tr.l-toi-tablerow td .l-toi-holder:before, .tabular tbody .tr.l-toi-tablerow td .l-toi-holder:after, .tabular tbody .tr.l-toi-tablerow .td .l-toi-holder:before, .tabular tbody .tr.l-toi-tablerow .td .l-toi-holder:after, .tabular .tbody tr.l-toi-tablerow td .l-toi-holder:before, .tabular .tbody tr.l-toi-tablerow td .l-toi-holder:after, .tabular .tbody tr.l-toi-tablerow .td .l-toi-holder:before, .tabular .tbody tr.l-toi-tablerow .td .l-toi-holder:after, .tabular .tbody .tr.l-toi-tablerow td .l-toi-holder:before, .tabular .tbody .tr.l-toi-tablerow td .l-toi-holder:after, .tabular .tbody .tr.l-toi-tablerow .td .l-toi-holder:before, .tabular .tbody .tr.l-toi-tablerow .td .l-toi-holder:after,
+table tbody tr.l-toi-tablerow td .l-toi-holder:before,
+table tbody tr.l-toi-tablerow td .l-toi-holder:after,
+table tbody tr.l-toi-tablerow .td .l-toi-holder:before,
+table tbody tr.l-toi-tablerow .td .l-toi-holder:after,
+table tbody .tr.l-toi-tablerow td .l-toi-holder:before,
+table tbody .tr.l-toi-tablerow td .l-toi-holder:after,
+table tbody .tr.l-toi-tablerow .td .l-toi-holder:before,
+table tbody .tr.l-toi-tablerow .td .l-toi-holder:after,
+table .tbody tr.l-toi-tablerow td .l-toi-holder:before,
+table .tbody tr.l-toi-tablerow td .l-toi-holder:after,
+table .tbody tr.l-toi-tablerow .td .l-toi-holder:before,
+table .tbody tr.l-toi-tablerow .td .l-toi-holder:after,
+table .tbody .tr.l-toi-tablerow td .l-toi-holder:before,
+table .tbody .tr.l-toi-tablerow td .l-toi-holder:after,
+table .tbody .tr.l-toi-tablerow .td .l-toi-holder:before,
+table .tbody .tr.l-toi-tablerow .td .l-toi-holder:after {
+  display: none; }
+
+/* line 205, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1472, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1815, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.tabular tbody tr.l-toi-tablerow td .l-toi-holder .l-toi, .tabular tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi, .tabular tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi, .tabular tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi, .tabular .tbody tr.l-toi-tablerow td .l-toi-holder .l-toi, .tabular .tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi, .tabular .tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi, .tabular .tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi,
+table tbody tr.l-toi-tablerow td .l-toi-holder .l-toi,
+table tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi,
+table tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi,
+table tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi,
+table .tbody tr.l-toi-tablerow td .l-toi-holder .l-toi,
+table .tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi,
+table .tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi,
+table .tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi {
+  background: rgba(51, 51, 51, 0.9);
+  border-radius: 20%;
+  height: auto;
+  padding: 4px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  right: auto;
+  top: 0; }
+
+/* line 212, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1494, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1839, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.tabular tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons, .tabular tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons, .tabular tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons, .tabular tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons, .tabular .tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons, .tabular .tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons, .tabular .tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons, .tabular .tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons,
+table tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons,
+table tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons,
+table tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons,
+table tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons,
+table .tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons,
+table .tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons,
+table .tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons,
+table .tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons {
+  padding: 1px; }
+
+/* line 214, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1505, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1852, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.tabular tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular .tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular .tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular .tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover, .tabular .tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table .tbody tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table .tbody tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table .tbody .tr.l-toi-tablerow td .l-toi-holder .l-toi .l-toi-buttons:hover,
+table .tbody .tr.l-toi-tablerow .td .l-toi-holder .l-toi .l-toi-buttons:hover {
+  padding: 4px; }
+
+/* line 228, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1517, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1865, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.gl-plot .gl-plot-wrapper-display-area-and-x-axis {
+  right: 10px; }
+
+/* line 231, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1520, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1870, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.gl-plot .gl-plot-wrapper-display-area-and-x-axis .l-toi-holder {
+  bottom: 27px;
+  z-index: 3; }
+
+/* line 235, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1524, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1876, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.gl-plot .gl-plot-wrapper-display-area-and-x-axis .l-toi-holder .l-toi {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%); }
+
+/* line 240, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1531, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1885, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.gl-plot .gl-plot-wrapper-display-area-and-x-axis .l-toi-holder .l-toi {
+  top: auto;
+  bottom: 4px; }
+
+/* line 252, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1536, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1891, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-toi-holder:before, .l-time-conductor .l-toi-holder:after {
+  border-left-style: solid;
+  height: 4px; }
+
+/* line 259, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1541, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1897, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-toi-holder:before {
+  -webkit-transform: translate(-50%, -2px);
+  -moz-transform: translate(-50%, -2px);
+  -ms-transform: translate(-50%, -2px);
+  -o-transform: translate(-50%, -2px);
+  transform: translate(-50%, -2px);
+  top: 0px;
+  bottom: auto; }
+
+/* line 265, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/sass/_time-of-interest.scss */
+/* line 1551, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+/* line 1908, /Applications/MAMP/htdocs/openmct-master/platform/features/conductor/core/res/css/time-conductor-espresso.css */
+.l-time-conductor .l-toi-holder:after {
+  -webkit-transform: translate(-50%, 2px);
+  -moz-transform: translate(-50%, 2px);
+  -ms-transform: translate(-50%, 2px);
+  -o-transform: translate(-50%, 2px);
+  transform: translate(-50%, 2px);
+  top: auto;
+  bottom: 0px; }
+
+/*# sourceMappingURL=time-conductor-espresso.css.map */
+/*# sourceMappingURL=time-conductor-espresso.css.map */
+
+/*# sourceMappingURL=time-conductor-espresso.css.map */
